@@ -1,0 +1,52 @@
+12/09 - Added Stretched sphere to top; depth buffer acting odd
+14/09, 14:31 - Fixed depth buffer
+15/09, 18:30 - Added boosters, trying to figure out how to draw multiple ships
+15/09, 21:06 - Draws 16 ships in a grid, simple lighting
+
+9/17:
+Implemented camera controls for the current project
+The controls should not interfer with the existing code in anyway
+Added a few global variables for camera control
+Small changes to the orientation of the initial camera, can be edited
+Implemented a zoom in/out option with PageUp and PageDown, ranges created to keep the zoom level in check, possible extra credit =D
+
+9/18 - Changed the method of drawing the ships, using a Display List now
+9/21 - Fins are now drawn
+
+9/23:
+Second window up, camera controls fixed for both windows
+some maintenance 
+
+9/24:
+Second window displaying orthogonal view from z axis
+The spaceships do need to be arranged in a square-rhombus pattern as opposed to a square
+Code in InitializeGL and been changed to reflect this
+additional maintenance
+edits to both spaceship.h and spaceship.cpp to allow for multiple displaylists of spaceships
+NOTE: A standard orthogonal display of the spaceship does not produce the desired viewing effects.
+      The spaceships displayed appear extremely close together and overlap with eachother. 
+      It would be unreasonable to space the spaceships further apart than already is
+      Possible solution: create a "fake" range of 7 spaceships representing orthogonal view. 
+      Will consult Perry when I get a chance 
+
+9/25:
+Updated the zooming function. Zoom now operates correctly as according to example by increasing/decreasing the fov instead of the camera radius
+
+9/26:
+Background grid for the camera in third person view now up and running. Grid is drawn as a wiresphere in the distance.
+
+9/29 - Everything is up and running, boy!!
+
+9/30 - 3:25p - First round of some commenting
+9/30 - 4:35p - Potentially added code to delete DisplayLists at program close
+9/30: - 5:02 - Got rid of warnings (type conversion issues)
+9/30 - 6:26p - Fixed z fighting issues on spaceship object
+9/30 - 7:16p - Reordered functions in main to be more "chronological"
+9/30 - 9:20p - "fpvWindowClosed" and "tpvWindowClosed" merged into one boolean, "WindowClosed"
+
+10/1 - 11:54a - added better commenting on text, Spaceship::initialize(); Added dynamic resizing functionality on text
+
+10/1 - 7:47p - removed dynamic text resizing, have code for frustum control in there, but not active
+10/1 - 7:58p - tweaked the colors of the ship
+10/1 - 8:03p - re-added frustum control (why not?)
+10/1 - 10:57p - MOUSE MOVEMENT
