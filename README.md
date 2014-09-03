@@ -1,6 +1,4 @@
-Project 1 - A first person a third person camera revolving around an array of 3D spaceships in OpenGL
-Jackson Reed and Zhouyang Michael Ye
-
+*Project 1 - A first person a third person camera revolving around an array of 3D spaceships in OpenGL*
 
 - Key input is not reliant on the window in focus - 
   all input is reflected in both windows
@@ -24,12 +22,9 @@ Jackson Reed and Zhouyang Michael Ye
   the keyboard
 - Full mouse control in the first person window, movement and fov
 
+================
 
-
-Project 2 - Renders a spaceship and mars model(imported from heightmap) in various camera modes
-Jackson Reed and Nik Ingrassia
-
-Renders a spaceship and mars model(imported from heightmap) in various camera modes
+*Project 2 - Renders a spaceship and mars model(imported from heightmap) in various camera modes*
 
 Controls:
 - arrow keys or mouse move the camera in most modes (mouse wheel changes fov)
@@ -45,8 +40,9 @@ Features:
 - Can look up and down in first person mode
 - Control handled in timer function to minimize delay
 
+================
 
-Project 3 - A simple music visualizer that changes dynamically to any song loaded into it
+*Project 3 - A simple music visualizer that changes dynamically to any song loaded into it*
 
 Controls:
 - Q to toggle between post-processed background and screen space shader
